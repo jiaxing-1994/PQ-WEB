@@ -1,0 +1,123 @@
+@charset "utf-8";
+@function px2vh($px, $base-font-size: 720px) {
+  @return ($px / $base-font-size) * 100vh;
+}
+
+@function px2vw($px, $base-font-size: 1280px) {
+  @return ($px / $base-font-size) * 100vw;
+}
+
+//深色
+$mainColor: #171b2b; //主色调
+$tabColor: #131625; //tab色调
+$borderColor: #252a44; //框架色
+$logoColor: #b8bfe5; //logo字体色
+$normalFontColor: #b8bfe5; //一般字体色
+$activeFontColor: #fff; //选中字体色
+$activeTabColor: #1873f2; //选中提示色
+$borderLineColor: #111217;
+$btnBgColor: #383f66; //按钮背景色
+$btnIconFont: #b8bfe6; //按钮内容色
+$btnActiveIconFont: #fff; //按钮激活内容色
+$positionBorderColor: #1d2136; //仓位列表border色
+$detailColor:#e5bf00;
+$normalRiskColor:#ff5500;//正常风险度颜色
+$highRiskColor:#e62e4c;//高风险度颜色
+/*模拟交易*/
+$vtradeTabColor:#383f66;
+/*浅色*/
+$mainLowColor: #fff; //主色调
+$tabLowColor: #fff; //tab色调
+$borderLowColor: #e5e5e5; //框架色
+$logoLowColor: #333; //logo字体色
+$normalLowFontColor: #333; //一般字体色
+$activeLowFontColor: #333; //选中字体色
+$activeLowTabColor: #1873f2; //选中提示色
+$bgLowColor: #f0f2f5; //背景色
+$lowBorderLineColor:#f2f2f2;
+$lowTitleColor: #666666; //标题色
+
+$tipBgColor: #ff4c4c; //提示背景色
+$tipBgColor2: #cc3d3d; //提示背景色2
+$tipFontColor: #fff; //提示文字色
+
+$placeHolderColor: #6b7399; //input提示文字颜色
+
+$quotaChooseBgColor: #21263d; //行情选中背景颜色
+$colorUp: #e62e4c; //行情色
+$colorBgUp: #332433; //行情背景色
+$colorDown: #00cc66; //行情色
+$colorBgDown: #142933; //行情背景色
+
+$awardFontColor: #ffd400; //领取奖励文字色
+
+/*滚动条颜色*/
+$scrollBgColor: #21263d; //滚动条背景颜色
+$scrollBarColor: #383f66; //滚动条颜色
+$scrollLowBgColor: #fff; //滚动条背景颜色
+$scrollLowBarColor: #ddd; //滚动条颜色
+
+/*select*/
+$selectBorderColor: #383f66; //select边框背景色
+$selectBorderColor2: #ddd; //select边框背景色
+$selectBorderColor3: #ddd; //select边框背景色
+$selectBg: #131625; //select背景色
+$selectBg2: #f2f3f4; //select背景色
+$selectBg3: #fff; //select背景色
+$selectFontColor: #b8bfe6; //select文字颜色
+$selectFontColor2: #333; //select文字颜色
+$selectFontColor3: #333; //select文字颜色
+$optionBg: #fff; //option背景色
+$optionHover: #f2f3f4; //option鼠标hover颜色
+$optionFontColor: #333333; //option文字颜色
+$selectActiveColor: #1873f2; //select激活颜色
+$selectScrollBg: #ecebf2; //scroll背景颜色
+$selectScrollBar: #c7c6cc; //scroll Bar颜色
+
+/*layer*/
+$layerBgColor: #fff; //背景色
+$layerFontColor: #333; //文字色
+$layerTitleColor: #666666; //标题色
+$layerBorderColor: #e5e5e5; //边框色
+$layerActiveColor: #1873f2; //激活色
+.colorUp {
+  color: $colorUp !important;
+}
+
+.colorDown {
+  color: $colorDown !important;
+}
+
+.colorBgUp {
+  background: $colorBgUp !important;
+}
+
+.colorBgDown {
+  background: $colorBgDown !important;
+}
+
+.left-justifying {
+  text-align: left;
+  // justify-content: flex-start
+}
+
+.right-justifying {
+  text-align: right;
+  // justify-content: flex-end
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bank-select {
+  border: 1px solid #e5e5e5 !important;
+
+  .select-value {
+    padding-left: 20px;
+    justify-content: flex-start !important;
+  }
+}
+
+
+
